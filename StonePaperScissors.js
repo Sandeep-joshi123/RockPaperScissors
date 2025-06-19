@@ -26,13 +26,13 @@ const  showWinner = (userWin, userChoice, compChoice) =>{
     if(userWin)
     {
         //console.log("You won!!");
-        msg.innerText = `You won!! 🎉 your ${userChoice} beats ${compChoice}`;
+        msg.innerText = `You won!! 🎉 your ${userChoice} beats  bot's ${compChoice}`;
         msg.style.backgroundColor = 'green';
         userScorePara.innerText = ++userScore; //pre increment
     }
     else{
         //console.log("You lost");
-        msg.innerText = `You lost 😞 ${compChoice} beats your ${userChoice}`;
+        msg.innerText = `You lost 😞; bot's ${compChoice} beats your ${userChoice}`;
         msg.style.backgroundColor = 'red';
         compScorePara.innerText = ++compScore;
     }
