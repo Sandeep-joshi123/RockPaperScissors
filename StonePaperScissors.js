@@ -32,7 +32,7 @@ const  showWinner = (userWin, userChoice, compChoice) =>{
     }
     else{
         //console.log("You lost");
-        msg.innerText = `You lost 😞; bot's ${compChoice} beats your ${userChoice}`;
+        msg.innerText = `You lost 😞 - bot's ${compChoice} beats your ${userChoice}`;
         msg.style.backgroundColor = 'red';
         compScorePara.innerText = ++compScore;
     }
